@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.BankAccountBalanceMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.BankAccountBalance" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="CONTRACT_ID" property="contractId" jdbcType="VARCHAR" />
+    <id column="BALANCE_TYPE" property="balanceType" jdbcType="VARCHAR" />
+    <result column="AMOUNT" property="amount" jdbcType="DECIMAL" />
+    <result column="CURRENCY" property="currency" jdbcType="VARCHAR" />
+    <result column="LAST_SETTLEMENT_DATE" property="lastSettlementDate" jdbcType="DATE" />
+    <result column="LAST_CHANGE_TIMESTAMP" property="lastChangeTimestamp" jdbcType="TIMESTAMP" />
+    <result column="LAST_CHANGE_TIMESTAMP_C" property="lastChangeTimestampC" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

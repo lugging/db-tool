@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.PostingDateMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.PostingDate" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="POSTING_AREA" property="postingArea" jdbcType="VARCHAR" />
+    <result column="POSTING_DATE" property="postingDate" jdbcType="TIMESTAMP" />
+    <result column="LAST_POSTING_DATE" property="lastPostingDate" jdbcType="TIMESTAMP" />
+    <result column="EOD_DATE" property="eodDate" jdbcType="TIMESTAMP" />
+    <result column="TIMESTAMP" property="timestamp" jdbcType="TIMESTAMP" />
+    <result column="OPERATOR" property="operator" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

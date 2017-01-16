@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.DruidWallMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.DruidWall" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="domain" property="domain" jdbcType="VARCHAR" />
+    <result column="app" property="app" jdbcType="VARCHAR" />
+    <result column="cluster" property="cluster" jdbcType="VARCHAR" />
+    <result column="host" property="host" jdbcType="VARCHAR" />
+    <result column="pid" property="pid" jdbcType="INTEGER" />
+    <result column="collectTime" property="collecttime" jdbcType="TIMESTAMP" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="checkCount" property="checkcount" jdbcType="BIGINT" />
+    <result column="hardCheckCount" property="hardcheckcount" jdbcType="BIGINT" />
+    <result column="violationCount" property="violationcount" jdbcType="BIGINT" />
+    <result column="whiteListHitCount" property="whitelisthitcount" jdbcType="BIGINT" />
+    <result column="blackListHitCount" property="blacklisthitcount" jdbcType="BIGINT" />
+    <result column="syntaxErrorCount" property="syntaxerrorcount" jdbcType="BIGINT" />
+    <result column="violationEffectRowCount" property="violationeffectrowcount" jdbcType="BIGINT" />
+  </resultMap>
+</mapper>

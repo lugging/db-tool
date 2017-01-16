@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.DruidDatasourceMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.DruidDatasource" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="domain" property="domain" jdbcType="VARCHAR" />
+    <result column="app" property="app" jdbcType="VARCHAR" />
+    <result column="cluster" property="cluster" jdbcType="VARCHAR" />
+    <result column="host" property="host" jdbcType="VARCHAR" />
+    <result column="pid" property="pid" jdbcType="INTEGER" />
+    <result column="collectTime" property="collecttime" jdbcType="TIMESTAMP" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="dbType" property="dbtype" jdbcType="VARCHAR" />
+    <result column="driverClassName" property="driverclassname" jdbcType="VARCHAR" />
+    <result column="activeCount" property="activecount" jdbcType="INTEGER" />
+    <result column="activePeak" property="activepeak" jdbcType="INTEGER" />
+    <result column="activePeakTime" property="activepeaktime" jdbcType="BIGINT" />
+    <result column="poolingCount" property="poolingcount" jdbcType="INTEGER" />
+    <result column="poolingPeak" property="poolingpeak" jdbcType="INTEGER" />
+    <result column="poolingPeakTime" property="poolingpeaktime" jdbcType="BIGINT" />
+    <result column="connectCount" property="connectcount" jdbcType="BIGINT" />
+    <result column="closeCount" property="closecount" jdbcType="BIGINT" />
+    <result column="waitThreadCount" property="waitthreadcount" jdbcType="BIGINT" />
+    <result column="notEmptyWaitCount" property="notemptywaitcount" jdbcType="BIGINT" />
+    <result column="notEmptyWaitNanos" property="notemptywaitnanos" jdbcType="BIGINT" />
+    <result column="logicConnectErrorCount" property="logicconnecterrorcount" jdbcType="BIGINT" />
+    <result column="physicalConnectCount" property="physicalconnectcount" jdbcType="BIGINT" />
+    <result column="physicalCloseCount" property="physicalclosecount" jdbcType="BIGINT" />
+    <result column="physicalConnectErrorCount" property="physicalconnecterrorcount" jdbcType="BIGINT" />
+    <result column="executeCount" property="executecount" jdbcType="BIGINT" />
+    <result column="errorCount" property="errorcount" jdbcType="BIGINT" />
+    <result column="commitCount" property="commitcount" jdbcType="BIGINT" />
+    <result column="rollbackCount" property="rollbackcount" jdbcType="BIGINT" />
+    <result column="pstmtCacheHitCount" property="pstmtcachehitcount" jdbcType="BIGINT" />
+    <result column="pstmtCacheMissCount" property="pstmtcachemisscount" jdbcType="BIGINT" />
+    <result column="startTransactionCount" property="starttransactioncount" jdbcType="BIGINT" />
+    <result column="txn_0_1" property="txn01" jdbcType="BIGINT" />
+    <result column="txn_1_10" property="txn110" jdbcType="BIGINT" />
+    <result column="txn_10_100" property="txn10100" jdbcType="BIGINT" />
+    <result column="txn_100_1000" property="txn1001000" jdbcType="BIGINT" />
+    <result column="txn_1000_10000" property="txn100010000" jdbcType="BIGINT" />
+    <result column="txn_10000_100000" property="txn10000100000" jdbcType="BIGINT" />
+    <result column="txn_more" property="txnMore" jdbcType="BIGINT" />
+    <result column="clobOpenCount" property="clobopencount" jdbcType="BIGINT" />
+    <result column="blobOpenCount" property="blobopencount" jdbcType="BIGINT" />
+    <result column="sqlSkipCount" property="sqlskipcount" jdbcType="BIGINT" />
+  </resultMap>
+</mapper>

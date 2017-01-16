@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.CdmCardEventMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.CdmCardEvent" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="CARD_EVENT" property="cardEvent" jdbcType="VARCHAR" />
+    <result column="DESCRIPTION" property="description" jdbcType="VARCHAR" />
+    <result column="EVENT_TYPE" property="eventType" jdbcType="CHAR" />
+    <result column="NEXT_STATE" property="nextState" jdbcType="VARCHAR" />
+    <result column="CONTROL_DAYS" property="controlDays" jdbcType="INTEGER" />
+    <result column="BRANCH_LIMIT" property="branchLimit" jdbcType="CHAR" />
+    <result column="STATUS" property="status" jdbcType="CHAR" />
+    <result column="LAST_CHG_DATE" property="lastChgDate" jdbcType="TIMESTAMP" />
+    <result column="LAST_CHG_TIME" property="lastChgTime" jdbcType="TIMESTAMP" />
+    <result column="LAST_CHG_TELLER" property="lastChgTeller" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.ConditionStdMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.ConditionStd" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="CONDITION_GROUP_ID" property="conditionGroupId" jdbcType="VARCHAR" />
+    <id column="CONDITION_TYPE" property="conditionType" jdbcType="VARCHAR" />
+    <id column="VALID_FROM_DATE" property="validFromDate" jdbcType="TIMESTAMP" />
+    <id column="SEQ_NUMBER" property="seqNumber" jdbcType="INTEGER" />
+    <id column="CURRENCY" property="currency" jdbcType="VARCHAR" />
+    <result column="VALID_TO_DATE" property="validToDate" jdbcType="TIMESTAMP" />
+    <result column="CONDITION_FORM" property="conditionForm" jdbcType="CHAR" />
+    <result column="INTEREST_MODE" property="interestMode" jdbcType="VARCHAR" />
+    <result column="CALENDAR" property="calendar" jdbcType="VARCHAR" />
+    <result column="DESCRIPTION" property="description" jdbcType="VARCHAR" />
+    <result column="ROUNDING_CATEGORY" property="roundingCategory" jdbcType="VARCHAR" />
+    <result column="ROUNDING_UNIT" property="roundingUnit" jdbcType="INTEGER" />
+    <result column="INTERVAL_CALCULATION" property="intervalCalculation" jdbcType="CHAR" />
+    <result column="DATE_CATEGORY" property="dateCategory" jdbcType="VARCHAR" />
+    <result column="REPETI_PERIOD" property="repetiPeriod" jdbcType="CHAR" />
+    <result column="REPETI_PERIOD_UNIT" property="repetiPeriodUnit" jdbcType="CHAR" />
+    <result column="KEY_DATE" property="keyDate" jdbcType="VARCHAR" />
+    <result column="FIRST_CALC_DATE" property="firstCalcDate" jdbcType="TIMESTAMP" />
+    <result column="REF_DATE_CATEGORY" property="refDateCategory" jdbcType="VARCHAR" />
+    <result column="FREQUENCY_CATEGORY" property="frequencyCategory" jdbcType="CHAR" />
+    <result column="DIFF_CATEGORY1" property="diffCategory1" jdbcType="VARCHAR" />
+    <result column="DIFF_VALUE1" property="diffValue1" jdbcType="VARCHAR" />
+    <result column="DIFF_CATEGORY2" property="diffCategory2" jdbcType="VARCHAR" />
+    <result column="DIFF_VALUE2" property="diffValue2" jdbcType="VARCHAR" />
+    <result column="DIFF_CATEGORY3" property="diffCategory3" jdbcType="VARCHAR" />
+    <result column="DIFF_VALUE3" property="diffValue3" jdbcType="VARCHAR" />
+    <result column="DIFF_CATEGORY4" property="diffCategory4" jdbcType="VARCHAR" />
+    <result column="DIFF_VALUE4" property="diffValue4" jdbcType="VARCHAR" />
+    <result column="DIFF_CATEGORY5" property="diffCategory5" jdbcType="VARCHAR" />
+    <result column="DIFF_VALUE5" property="diffValue5" jdbcType="VARCHAR" />
+    <result column="TEL_ID" property="telId" jdbcType="VARCHAR" />
+    <result column="UPDATOR" property="updator" jdbcType="VARCHAR" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

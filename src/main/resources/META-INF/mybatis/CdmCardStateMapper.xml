@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.CdmCardStateMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.CdmCardState" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="CARD_STATUS" property="cardStatus" jdbcType="VARCHAR" />
+    <result column="DESCIPTION" property="desciption" jdbcType="VARCHAR" />
+    <result column="ALLOW_ASSO" property="allowAsso" jdbcType="CHAR" />
+    <result column="ALLOW_ADDCARD" property="allowAddcard" jdbcType="CHAR" />
+    <result column="ALLOW_QUERY" property="allowQuery" jdbcType="CHAR" />
+    <result column="ALLOW_SAVE" property="allowSave" jdbcType="CHAR" />
+    <result column="ALLOW_DRAW" property="allowDraw" jdbcType="CHAR" />
+    <result column="ALLOW_BKSAVE" property="allowBksave" jdbcType="CHAR" />
+    <result column="ALLOW_BKDRAW" property="allowBkdraw" jdbcType="CHAR" />
+    <result column="VALID_FLAG" property="validFlag" jdbcType="CHAR" />
+    <result column="STATUS" property="status" jdbcType="CHAR" />
+    <result column="LAST_CHG_DATE" property="lastChgDate" jdbcType="TIMESTAMP" />
+    <result column="LAST_CHG_TIME" property="lastChgTime" jdbcType="TIMESTAMP" />
+    <result column="LAST_CHG_TELLER" property="lastChgTeller" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.CounterRuleSetMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.CounterRuleSet" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="APPL_ID" property="applId" jdbcType="VARCHAR" />
+    <id column="APPL_ID_NUMBER" property="applIdNumber" jdbcType="VARCHAR" />
+    <id column="SEQ_NUMBER" property="seqNumber" jdbcType="INTEGER" />
+    <result column="FIELD_NAME" property="fieldName" jdbcType="VARCHAR" />
+    <result column="CATEGORY" property="category" jdbcType="VARCHAR" />
+    <result column="LOW" property="low" jdbcType="VARCHAR" />
+    <result column="HIGH" property="high" jdbcType="VARCHAR" />
+    <result column="FLG_LOW_VAR" property="flgLowVar" jdbcType="CHAR" />
+    <result column="FLG_HIGH_VAR" property="flgHighVar" jdbcType="CHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

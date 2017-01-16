@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.OrganizationRelationMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.OrganizationRelation" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ORGANIZATION" property="organization" jdbcType="VARCHAR" />
+    <result column="ORG_TYPE" property="orgType" jdbcType="CHAR" />
+    <result column="ORG_PARENT" property="orgParent" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="CREATOR" property="creator" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

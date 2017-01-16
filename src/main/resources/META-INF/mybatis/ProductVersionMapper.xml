@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.ProductVersionMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.ProductVersion" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PRODUCT_ID" property="productId" jdbcType="VARCHAR" />
+    <id column="PRODUCT_VERSION" property="productVersion" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="IS_USED" property="isUsed" jdbcType="CHAR" />
+    <result column="VALID_FROM_DATE" property="validFromDate" jdbcType="TIMESTAMP" />
+    <result column="VALID_TO_DATE" property="validToDate" jdbcType="TIMESTAMP" />
+    <result column="CATE_USE_BITMAP" property="cateUseBitmap" jdbcType="VARCHAR" />
+    <result column="CATE_INHERIT_BITMAP" property="cateInheritBitmap" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="CREATOR" property="creator" jdbcType="VARCHAR" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATOR" property="updator" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

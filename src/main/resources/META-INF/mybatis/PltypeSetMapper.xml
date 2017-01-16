@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.PltypeSetMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.PltypeSet" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PLTYPE" property="pltype" jdbcType="VARCHAR" />
+    <result column="TURNOVER_CLASS" property="turnoverClass" jdbcType="VARCHAR" />
+    <result column="BLCTYP" property="blctyp" jdbcType="CHAR" />
+    <result column="CMPDAT" property="cmpdat" jdbcType="CHAR" />
+    <result column="PERIOD" property="period" jdbcType="DECIMAL" />
+    <result column="P_UNIT" property="pUnit" jdbcType="CHAR" />
+    <result column="PERCHG" property="perchg" jdbcType="CHAR" />
+    <result column="PUNCHG" property="punchg" jdbcType="CHAR" />
+    <result column="AMTCHG" property="amtchg" jdbcType="CHAR" />
+  </resultMap>
+</mapper>

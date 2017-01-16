@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.ConditionTypeMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.ConditionType" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="CONDITION_TYPE" property="conditionType" jdbcType="VARCHAR" />
+    <result column="DESCRIPTION" property="description" jdbcType="VARCHAR" />
+    <result column="CONDITION_CATEGORY" property="conditionCategory" jdbcType="VARCHAR" />
+    <result column="POSTING_SIGN" property="postingSign" jdbcType="CHAR" />
+    <result column="POSTING_SIGN_ADJC" property="postingSignAdjc" jdbcType="VARCHAR" />
+    <result column="POSTING_SIGN_ADJD" property="postingSignAdjd" jdbcType="VARCHAR" />
+    <result column="CALENDAR" property="calendar" jdbcType="VARCHAR" />
+    <result column="SETTLEMENT_POSTING_TYPE" property="settlementPostingType" jdbcType="VARCHAR" />
+    <result column="CALCULATION_BASIS" property="calculationBasis" jdbcType="VARCHAR" />
+    <result column="AGGREGATE_CALCULATE" property="aggregateCalculate" jdbcType="CHAR" />
+  </resultMap>
+</mapper>

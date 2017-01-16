@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.TtLockRelaMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.TtLockRela" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="LOCK_ID" property="lockId" jdbcType="VARCHAR" />
+    <id column="MEDIUM" property="medium" jdbcType="VARCHAR" />
+    <id column="TT_GROUP" property="ttGroup" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.MqMessagePublisherMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.MqMessagePublisher" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="MESSAGE_ID" property="messageId" jdbcType="VARCHAR" />
+    <result column="DOCKER_ID" property="dockerId" jdbcType="VARCHAR" />
+    <result column="ROUTE_BO_TYPE" property="routeBoType" jdbcType="VARCHAR" />
+    <result column="ROUTE_BO_ID" property="routeBoId" jdbcType="VARCHAR" />
+    <result column="MESSAGE_TEXT" property="messageText" jdbcType="VARCHAR" />
+    <result column="TIME_CREATED" property="timeCreated" jdbcType="TIMESTAMP" />
+    <result column="DESTINATION" property="destination" jdbcType="VARCHAR" />
+    <result column="MESSAGE_MODE" property="messageMode" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

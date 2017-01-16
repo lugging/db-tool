@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.CounterReadMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.CounterRead" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="CONTRACT_ID" property="contractId" jdbcType="VARCHAR" />
+    <id column="COUNTER_TYPE" property="counterType" jdbcType="VARCHAR" />
+    <id column="COUNT_TIMESTMP" property="countTimestmp" jdbcType="TIMESTAMP" />
+    <id column="COUNTER" property="counter" jdbcType="VARCHAR" />
+    <id column="CURRENCY" property="currency" jdbcType="VARCHAR" />
+    <result column="COUNTERREADING" property="counterreading" jdbcType="DECIMAL" />
+    <result column="AMOUNT" property="amount" jdbcType="DECIMAL" />
+    <result column="CHANGE_TIMESTAMP" property="changeTimestamp" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>
