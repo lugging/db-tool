@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.TLoanIousMasterFilesMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.TLoanIousMasterFiles" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="ID" property="id" jdbcType="BIGINT" />
+    <result column="BANK_CODE" property="bankCode" jdbcType="VARCHAR" />
+    <result column="BRAN_CODE" property="branCode" jdbcType="VARCHAR" />
+    <result column="AGREEMENT" property="agreement" jdbcType="VARCHAR" />
+    <result column="RECEIPT_SEQ" property="receiptSeq" jdbcType="VARCHAR" />
+    <result column="PROD_CODE" property="prodCode" jdbcType="VARCHAR" />
+    <result column="CUSTOM_ID" property="customId" jdbcType="VARCHAR" />
+    <result column="CCY" property="ccy" jdbcType="VARCHAR" />
+    <result column="LOAN_AMT" property="loanAmt" jdbcType="VARCHAR" />
+    <result column="DATE_BEG" property="dateBeg" jdbcType="VARCHAR" />
+    <result column="DATE_END" property="dateEnd" jdbcType="VARCHAR" />
+    <result column="INTEREST_TATE" property="interestTate" jdbcType="VARCHAR" />
+    <result column="PENALTY_INTEREST_RATE" property="penaltyInterestRate" jdbcType="VARCHAR" />
+    <result column="AMOUNT_OF_TIME_LIMIT" property="amountOfTimeLimit" jdbcType="VARCHAR" />
+    <result column="LAST_SOLUTION_DAY" property="lastSolutionDay" jdbcType="VARCHAR" />
+    <result column="LOAN_CATEGORIES" property="loanCategories" jdbcType="VARCHAR" />
+    <result column="A_STATE" property="aState" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

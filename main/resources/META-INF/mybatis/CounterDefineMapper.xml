@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.CounterDefineMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.CounterDefine" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="COUNTER_TYPE" property="counterType" jdbcType="VARCHAR" />
+    <result column="COUNTER_CATG" property="counterCatg" jdbcType="VARCHAR" />
+    <result column="FLG_ALLOW_AMOUNT" property="flgAllowAmount" jdbcType="CHAR" />
+    <result column="CNTR_ASSIGNMENT" property="cntrAssignment" jdbcType="CHAR" />
+    <result column="FLG_CHG_MAN" property="flgChgMan" jdbcType="CHAR" />
+    <result column="FLG_INACTIVE_ACC" property="flgInactiveAcc" jdbcType="CHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.BankCalendarRulesMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.BankCalendarRules" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="RULES_ID" property="rulesId" jdbcType="VARCHAR" />
+    <result column="CALENDAR" property="calendar" jdbcType="VARCHAR" />
+    <result column="VALID_FROM_DATE" property="validFromDate" jdbcType="TIMESTAMP" />
+    <result column="VALID_TO_DATE" property="validToDate" jdbcType="TIMESTAMP" />
+    <result column="WORKDAY" property="workday" jdbcType="CHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.SettlementTotalMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.SettlementTotal" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="CONTRACT_ID" property="contractId" jdbcType="VARCHAR" />
+    <id column="SETTLEMENT_TYPE" property="settlementType" jdbcType="VARCHAR" />
+    <id column="SETTLE_PERIOD" property="settlePeriod" jdbcType="VARCHAR" />
+    <id column="SETTLE_COUNT" property="settleCount" jdbcType="VARCHAR" />
+    <result column="SETTLE_REVERSE_FLAG" property="settleReverseFlag" jdbcType="CHAR" />
+    <result column="REVERSE_TIMESTAMP" property="reverseTimestamp" jdbcType="TIMESTAMP" />
+    <result column="CURRENCY" property="currency" jdbcType="VARCHAR" />
+    <result column="START_TIMESTAMP" property="startTimestamp" jdbcType="TIMESTAMP" />
+    <result column="END_TIMESTAMP" property="endTimestamp" jdbcType="TIMESTAMP" />
+    <result column="SETTLE_TIMESTAMP" property="settleTimestamp" jdbcType="TIMESTAMP" />
+    <result column="POST_FLAG" property="postFlag" jdbcType="CHAR" />
+    <result column="PAY_ITEM_ID" property="payItemId" jdbcType="VARCHAR" />
+    <result column="OPERATOR" property="operator" jdbcType="VARCHAR" />
+    <result column="POSTING_AREA" property="postingArea" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

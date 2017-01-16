@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.ProductAttrMainMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.ProductAttrMain" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ATTR_NO" property="attrNo" jdbcType="VARCHAR" />
+    <result column="PRODUCT_TYPE" property="productType" jdbcType="VARCHAR" />
+    <result column="ATTR_TYPE" property="attrType" jdbcType="VARCHAR" />
+    <result column="IS_DELETE" property="isDelete" jdbcType="CHAR" />
+  </resultMap>
+</mapper>

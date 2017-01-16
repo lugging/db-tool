@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="db.tool.dao.DruidWallTableMapper">
+  <resultMap id="BaseResultMap" type="db.tool.model.DruidWallTable">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="domain" jdbcType="VARCHAR" property="domain" />
+    <result column="app" jdbcType="VARCHAR" property="app" />
+    <result column="cluster" jdbcType="VARCHAR" property="cluster" />
+    <result column="host" jdbcType="VARCHAR" property="host" />
+    <result column="pid" jdbcType="INTEGER" property="pid" />
+    <result column="collectTime" jdbcType="TIMESTAMP" property="collecttime" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="selectCount" jdbcType="BIGINT" property="selectcount" />
+    <result column="selectIntoCount" jdbcType="BIGINT" property="selectintocount" />
+    <result column="insertCount" jdbcType="BIGINT" property="insertcount" />
+    <result column="updateCount" jdbcType="BIGINT" property="updatecount" />
+    <result column="deleteCount" jdbcType="BIGINT" property="deletecount" />
+    <result column="truncateCount" jdbcType="BIGINT" property="truncatecount" />
+    <result column="createCount" jdbcType="BIGINT" property="createcount" />
+    <result column="alterCount" jdbcType="BIGINT" property="altercount" />
+    <result column="dropCount" jdbcType="BIGINT" property="dropcount" />
+    <result column="replaceCount" jdbcType="BIGINT" property="replacecount" />
+    <result column="deleteDataCount" jdbcType="BIGINT" property="deletedatacount" />
+    <result column="updateDataCount" jdbcType="BIGINT" property="updatedatacount" />
+    <result column="insertDataCount" jdbcType="BIGINT" property="insertdatacount" />
+    <result column="fetchRowCount" jdbcType="BIGINT" property="fetchrowcount" />
+  </resultMap>
+</mapper>

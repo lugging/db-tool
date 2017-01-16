@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.TBathInAccInfDownFileMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.TBathInAccInfDownFile" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="HOST_BATCH_CODE" property="hostBatchCode" jdbcType="VARCHAR" />
+    <result column="CUSTOMER_ACC" property="customerAcc" jdbcType="VARCHAR" />
+    <result column="PERSONAL_ACCOUNT_NO" property="personalAccountNo" jdbcType="VARCHAR" />
+    <result column="ACC_NAME" property="accName" jdbcType="VARCHAR" />
+    <result column="CCY" property="ccy" jdbcType="VARCHAR" />
+    <result column="BANK_REMIT_ID" property="bankRemitId" jdbcType="VARCHAR" />
+    <result column="TS_AMT" property="tsAmt" jdbcType="DECIMAL" />
+    <result column="COUNT_AMT" property="countAmt" jdbcType="DECIMAL" />
+    <result column="SHOU_AMT" property="shouAmt" jdbcType="DECIMAL" />
+    <result column="DEDUCTION_TYPE" property="deductionType" jdbcType="VARCHAR" />
+    <result column="DEDUCTION_ACC" property="deductionAcc" jdbcType="VARCHAR" />
+    <result column="BATCH_STATUS" property="batchStatus" jdbcType="VARCHAR" />
+    <result column="INFORMATION_CODE" property="informationCode" jdbcType="VARCHAR" />
+    <result column="PROMPT_INFO" property="promptInfo" jdbcType="VARCHAR" />
+    <result column="TRANSACTION_DATE" property="transactionDate" jdbcType="VARCHAR" />
+    <result column="TRANSACTION_LOG_NO" property="transactionLogNo" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

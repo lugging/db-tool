@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.HolidayGroupTypeRelationMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.HolidayGroupTypeRelation" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="HOLIDAY_GROUP_TYPE" property="holidayGroupType" jdbcType="VARCHAR" />
+    <id column="HOLIDAY_TYPE" property="holidayType" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

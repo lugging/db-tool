@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.RefInterestRateTypeMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.RefInterestRateType" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="REFINTEREST_RATE_TYPE" property="refinterestRateType" jdbcType="VARCHAR" />
+    <result column="DESCRIPTION" property="description" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

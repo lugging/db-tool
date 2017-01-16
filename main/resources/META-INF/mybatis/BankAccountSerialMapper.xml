@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.BankAccountSerialMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.BankAccountSerial" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PAYMENT_ITEM_ID" property="paymentItemId" jdbcType="VARCHAR" />
+    <result column="CONTRACT_ID" property="contractId" jdbcType="VARCHAR" />
+    <result column="ORDER_ID" property="orderId" jdbcType="VARCHAR" />
+    <result column="SERIAL_decimal" property="serialDecimal" jdbcType="VARCHAR" />
+    <result column="TRANS_TYPE" property="transType" jdbcType="VARCHAR" />
+    <result column="CD_FLAG" property="cdFlag" jdbcType="CHAR" />
+    <result column="BANK_KEY" property="bankKey" jdbcType="VARCHAR" />
+    <result column="ACCOUNT_NO" property="accountNo" jdbcType="VARCHAR" />
+    <result column="CURRENCY" property="currency" jdbcType="VARCHAR" />
+    <result column="TRANS_AMOUNT" property="transAmount" jdbcType="DECIMAL" />
+    <result column="POSTING_DATE" property="postingDate" jdbcType="DATE" />
+    <result column="VALUE_DATE" property="valueDate" jdbcType="DATE" />
+    <result column="MEDIUM" property="medium" jdbcType="VARCHAR" />
+    <result column="ORGANIZATION" property="organization" jdbcType="VARCHAR" />
+    <result column="SUMMARY" property="summary" jdbcType="VARCHAR" />
+    <result column="TIMESTAMP" property="timestamp" jdbcType="TIMESTAMP" />
+    <result column="REVERSE_FLAG" property="reverseFlag" jdbcType="CHAR" />
+    <result column="REVERSE_ITEM_ID" property="reverseItemId" jdbcType="VARCHAR" />
+    <result column="TERMINAL_ID" property="terminalId" jdbcType="VARCHAR" />
+    <result column="REMARK" property="remark" jdbcType="VARCHAR" />
+    <result column="CASH_TRANS_FLAG" property="cashTransFlag" jdbcType="CHAR" />
+    <result column="OPPOSITE_ACCT_NO" property="oppositeAcctNo" jdbcType="VARCHAR" />
+    <result column="OPPOSITE_ACCT_NAME" property="oppositeAcctName" jdbcType="VARCHAR" />
+    <result column="OPPOSITE_DOC_NO" property="oppositeDocNo" jdbcType="VARCHAR" />
+    <result column="OPPOSITE_DOC_TYPE" property="oppositeDocType" jdbcType="VARCHAR" />
+    <result column="OPPOSITE_BANK_NAME" property="oppositeBankName" jdbcType="VARCHAR" />
+    <result column="OPPOSITE_BANK_NO" property="oppositeBankNo" jdbcType="VARCHAR" />
+    <result column="OPPOSITE_CUST_01" property="oppositeCust01" jdbcType="VARCHAR" />
+    <result column="OPPOSITE_CUST_02" property="oppositeCust02" jdbcType="VARCHAR" />
+    <result column="OPERATOR" property="operator" jdbcType="VARCHAR" />
+    <result column="SYS_INDICATOR" property="sysIndicator" jdbcType="VARCHAR" />
+    <result column="SERVICE_CODE" property="serviceCode" jdbcType="VARCHAR" />
+    <result column="BUPR_CODE" property="buprCode" jdbcType="VARCHAR" />
+    <result column="PAYM_PATH" property="paymPath" jdbcType="VARCHAR" />
+    <result column="CUST_01" property="cust01" jdbcType="VARCHAR" />
+    <result column="CUST_02" property="cust02" jdbcType="VARCHAR" />
+    <result column="CUST_03" property="cust03" jdbcType="VARCHAR" />
+    <result column="CUST_04" property="cust04" jdbcType="VARCHAR" />
+    <result column="CUST_05" property="cust05" jdbcType="VARCHAR" />
+    <result column="CUST_06" property="cust06" jdbcType="VARCHAR" />
+    <result column="CUST_07" property="cust07" jdbcType="VARCHAR" />
+    <result column="MIGRATION_FLAG" property="migrationFlag" jdbcType="CHAR" />
+    <result column="ARCHIVE_FLAG" property="archiveFlag" jdbcType="CHAR" />
+    <result column="POSTING_TEXT" property="postingText" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

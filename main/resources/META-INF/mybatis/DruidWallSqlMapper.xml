@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="db.tool.dao.DruidWallSqlMapper">
+  <resultMap id="BaseResultMap" type="db.tool.model.DruidWallSql">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="domain" jdbcType="VARCHAR" property="domain" />
+    <result column="app" jdbcType="VARCHAR" property="app" />
+    <result column="cluster" jdbcType="VARCHAR" property="cluster" />
+    <result column="host" jdbcType="VARCHAR" property="host" />
+    <result column="pid" jdbcType="INTEGER" property="pid" />
+    <result column="collectTime" jdbcType="TIMESTAMP" property="collecttime" />
+    <result column="sqlHash" jdbcType="BIGINT" property="sqlhash" />
+    <result column="sqlSHash" jdbcType="BIGINT" property="sqlshash" />
+    <result column="sqlSampleHash" jdbcType="BIGINT" property="sqlsamplehash" />
+    <result column="executeCount" jdbcType="BIGINT" property="executecount" />
+    <result column="fetchRowCount" jdbcType="BIGINT" property="fetchrowcount" />
+    <result column="updateCount" jdbcType="BIGINT" property="updatecount" />
+    <result column="syntaxError" jdbcType="INTEGER" property="syntaxerror" />
+    <result column="violationMessage" jdbcType="VARCHAR" property="violationmessage" />
+  </resultMap>
+</mapper>

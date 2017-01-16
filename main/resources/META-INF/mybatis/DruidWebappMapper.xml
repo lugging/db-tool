@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="db.tool.dao.DruidWebappMapper">
+  <resultMap id="BaseResultMap" type="db.tool.model.DruidWebapp">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="domain" jdbcType="VARCHAR" property="domain" />
+    <result column="app" jdbcType="VARCHAR" property="app" />
+    <result column="cluster" jdbcType="VARCHAR" property="cluster" />
+    <result column="host" jdbcType="VARCHAR" property="host" />
+    <result column="pid" jdbcType="INTEGER" property="pid" />
+    <result column="collectTime" jdbcType="TIMESTAMP" property="collecttime" />
+    <result column="contextPath" jdbcType="VARCHAR" property="contextpath" />
+    <result column="runningCount" jdbcType="INTEGER" property="runningcount" />
+    <result column="concurrentMax" jdbcType="INTEGER" property="concurrentmax" />
+    <result column="requestCount" jdbcType="BIGINT" property="requestcount" />
+    <result column="sessionCount" jdbcType="BIGINT" property="sessioncount" />
+    <result column="jdbcFetchRowCount" jdbcType="BIGINT" property="jdbcfetchrowcount" />
+    <result column="jdbcUpdateCount" jdbcType="BIGINT" property="jdbcupdatecount" />
+    <result column="jdbcExecuteCount" jdbcType="BIGINT" property="jdbcexecutecount" />
+    <result column="jdbcExecuteTimeNano" jdbcType="BIGINT" property="jdbcexecutetimenano" />
+    <result column="jdbcCommitCount" jdbcType="BIGINT" property="jdbccommitcount" />
+    <result column="jdbcRollbackCount" jdbcType="BIGINT" property="jdbcrollbackcount" />
+    <result column="osMacOSXCount" jdbcType="BIGINT" property="osmacosxcount" />
+    <result column="osWindowsCount" jdbcType="BIGINT" property="oswindowscount" />
+    <result column="osLinuxCount" jdbcType="BIGINT" property="oslinuxcount" />
+    <result column="osSymbianCount" jdbcType="BIGINT" property="ossymbiancount" />
+    <result column="osFreeBSDCount" jdbcType="BIGINT" property="osfreebsdcount" />
+    <result column="osOpenBSDCount" jdbcType="BIGINT" property="osopenbsdcount" />
+    <result column="osAndroidCount" jdbcType="BIGINT" property="osandroidcount" />
+    <result column="osWindows98Count" jdbcType="BIGINT" property="oswindows98count" />
+    <result column="osWindowsXPCount" jdbcType="BIGINT" property="oswindowsxpcount" />
+    <result column="osWindows2000Count" jdbcType="BIGINT" property="oswindows2000count" />
+    <result column="osWindowsVistaCount" jdbcType="BIGINT" property="oswindowsvistacount" />
+    <result column="osWindows7Count" jdbcType="BIGINT" property="oswindows7count" />
+    <result column="osWindows8Count" jdbcType="BIGINT" property="oswindows8count" />
+    <result column="osAndroid15Count" jdbcType="BIGINT" property="osandroid15count" />
+    <result column="osAndroid16Count" jdbcType="BIGINT" property="osandroid16count" />
+    <result column="osAndroid20Count" jdbcType="BIGINT" property="osandroid20count" />
+    <result column="osAndroid21Count" jdbcType="BIGINT" property="osandroid21count" />
+    <result column="osAndroid22Count" jdbcType="BIGINT" property="osandroid22count" />
+    <result column="osAndroid23Count" jdbcType="BIGINT" property="osandroid23count" />
+    <result column="osAndroid30Count" jdbcType="BIGINT" property="osandroid30count" />
+    <result column="osAndroid31Count" jdbcType="BIGINT" property="osandroid31count" />
+    <result column="osAndroid32Count" jdbcType="BIGINT" property="osandroid32count" />
+    <result column="osAndroid40Count" jdbcType="BIGINT" property="osandroid40count" />
+    <result column="osAndroid41Count" jdbcType="BIGINT" property="osandroid41count" />
+    <result column="osAndroid42Count" jdbcType="BIGINT" property="osandroid42count" />
+    <result column="osAndroid43Count" jdbcType="BIGINT" property="osandroid43count" />
+    <result column="osLinuxUbuntuCount" jdbcType="BIGINT" property="oslinuxubuntucount" />
+    <result column="browserIECount" jdbcType="BIGINT" property="browseriecount" />
+    <result column="browserFirefoxCount" jdbcType="BIGINT" property="browserfirefoxcount" />
+    <result column="browserChromeCount" jdbcType="BIGINT" property="browserchromecount" />
+    <result column="browserSafariCount" jdbcType="BIGINT" property="browsersafaricount" />
+    <result column="browserOperaCount" jdbcType="BIGINT" property="browseroperacount" />
+    <result column="browserIE5Count" jdbcType="BIGINT" property="browserie5count" />
+    <result column="browserIE6Count" jdbcType="BIGINT" property="browserie6count" />
+    <result column="browserIE7Count" jdbcType="BIGINT" property="browserie7count" />
+    <result column="browserIE8Count" jdbcType="BIGINT" property="browserie8count" />
+    <result column="browserIE9Count" jdbcType="BIGINT" property="browserie9count" />
+    <result column="browserIE10Count" jdbcType="BIGINT" property="browserie10count" />
+    <result column="browser360SECount" jdbcType="BIGINT" property="browser360secount" />
+    <result column="deviceAndroidCount" jdbcType="BIGINT" property="deviceandroidcount" />
+    <result column="deviceIpadCount" jdbcType="BIGINT" property="deviceipadcount" />
+    <result column="deviceIphoneCount" jdbcType="BIGINT" property="deviceiphonecount" />
+    <result column="deviceWindowsPhoneCount" jdbcType="BIGINT" property="devicewindowsphonecount" />
+    <result column="botCount" jdbcType="BIGINT" property="botcount" />
+    <result column="botBaiduCount" jdbcType="BIGINT" property="botbaiducount" />
+    <result column="botYoudaoCount" jdbcType="BIGINT" property="botyoudaocount" />
+    <result column="botGoogleCount" jdbcType="BIGINT" property="botgooglecount" />
+    <result column="botMsnCount" jdbcType="BIGINT" property="botmsncount" />
+    <result column="botBingCount" jdbcType="BIGINT" property="botbingcount" />
+    <result column="botSosoCount" jdbcType="BIGINT" property="botsosocount" />
+    <result column="botSogouCount" jdbcType="BIGINT" property="botsogoucount" />
+    <result column="botYahooCount" jdbcType="BIGINT" property="botyahoocount" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.ProductFieldattriProfeaRelMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.ProductFieldattriProfeaRel" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PRODUCT_ID" property="productId" jdbcType="VARCHAR" />
+    <id column="PRODUCT_VERSION" property="productVersion" jdbcType="VARCHAR" />
+    <id column="CATEGORY_NO" property="categoryNo" jdbcType="VARCHAR" />
+    <id column="ATTR_NO" property="attrNo" jdbcType="VARCHAR" />
+    <result column="VALUE_TYPE" property="valueType" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="db.tool.dao.DruidSpringmethodMapper">
+  <resultMap id="BaseResultMap" type="db.tool.model.DruidSpringmethod">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="domain" jdbcType="VARCHAR" property="domain" />
+    <result column="app" jdbcType="VARCHAR" property="app" />
+    <result column="cluster" jdbcType="VARCHAR" property="cluster" />
+    <result column="host" jdbcType="VARCHAR" property="host" />
+    <result column="pid" jdbcType="INTEGER" property="pid" />
+    <result column="collectTime" jdbcType="TIMESTAMP" property="collecttime" />
+    <result column="className" jdbcType="VARCHAR" property="classname" />
+    <result column="signature" jdbcType="VARCHAR" property="signature" />
+    <result column="runningCount" jdbcType="INTEGER" property="runningcount" />
+    <result column="concurrentMax" jdbcType="INTEGER" property="concurrentmax" />
+    <result column="executeCount" jdbcType="BIGINT" property="executecount" />
+    <result column="executeErrorCount" jdbcType="BIGINT" property="executeerrorcount" />
+    <result column="executeTimeNano" jdbcType="BIGINT" property="executetimenano" />
+    <result column="jdbcFetchRowCount" jdbcType="BIGINT" property="jdbcfetchrowcount" />
+    <result column="jdbcUpdateCount" jdbcType="BIGINT" property="jdbcupdatecount" />
+    <result column="jdbcExecuteCount" jdbcType="BIGINT" property="jdbcexecutecount" />
+    <result column="jdbcExecuteErrorCount" jdbcType="BIGINT" property="jdbcexecuteerrorcount" />
+    <result column="jdbcExecuteTimeNano" jdbcType="BIGINT" property="jdbcexecutetimenano" />
+    <result column="jdbcCommitCount" jdbcType="BIGINT" property="jdbccommitcount" />
+    <result column="jdbcRollbackCount" jdbcType="BIGINT" property="jdbcrollbackcount" />
+    <result column="jdbcPoolConnectionOpenCount" jdbcType="BIGINT" property="jdbcpoolconnectionopencount" />
+    <result column="jdbcPoolConnectionCloseCount" jdbcType="BIGINT" property="jdbcpoolconnectionclosecount" />
+    <result column="jdbcResultSetOpenCount" jdbcType="BIGINT" property="jdbcresultsetopencount" />
+    <result column="jdbcResultSetCloseCount" jdbcType="BIGINT" property="jdbcresultsetclosecount" />
+    <result column="lastErrorClass" jdbcType="VARCHAR" property="lasterrorclass" />
+    <result column="lastErrorMessage" jdbcType="VARCHAR" property="lasterrormessage" />
+    <result column="lastErrorStackTrace" jdbcType="VARCHAR" property="lasterrorstacktrace" />
+    <result column="lastErrorTimeMillis" jdbcType="BIGINT" property="lasterrortimemillis" />
+    <result column="h1" jdbcType="BIGINT" property="h1" />
+    <result column="h10" jdbcType="BIGINT" property="h10" />
+    <result column="h100" jdbcType="BIGINT" property="h100" />
+    <result column="h1000" jdbcType="BIGINT" property="h1000" />
+    <result column="h10000" jdbcType="INTEGER" property="h10000" />
+    <result column="h100000" jdbcType="INTEGER" property="h100000" />
+    <result column="h1000000" jdbcType="INTEGER" property="h1000000" />
+    <result column="hmore" jdbcType="INTEGER" property="hmore" />
+  </resultMap>
+</mapper>

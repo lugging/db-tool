@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.FlgActiveMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.FlgActive" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="TURNOVER_CLASS" property="turnoverClass" jdbcType="VARCHAR" />
+    <id column="O_LISTTYPE" property="oListtype" jdbcType="DECIMAL" />
+    <result column="FLG_ACTIVE" property="flgActive" jdbcType="CHAR" />
+    <result column="ACTIVE_TIMESTAMP" property="activeTimestamp" jdbcType="TIMESTAMP" />
+    <result column="DEACT_TIMESTAMP" property="deactTimestamp" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

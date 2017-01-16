@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="db.tool.dao.DruidConstMapper">
+  <resultMap id="BaseResultMap" type="db.tool.model.DruidConst">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="domain" jdbcType="VARCHAR" property="domain" />
+    <result column="app" jdbcType="VARCHAR" property="app" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="hash" jdbcType="BIGINT" property="hash" />
+    <result column="value" jdbcType="LONGVARCHAR" property="value" />
+  </resultMap>
+</mapper>

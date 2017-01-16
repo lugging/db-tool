@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.FreezeAmountSetMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.FreezeAmountSet" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="EVENT_TYPE" property="eventType" jdbcType="VARCHAR" />
+    <result column="LOCK_AMOUNT_TO" property="lockAmountTo" jdbcType="DECIMAL" />
+    <result column="LOCK_AMOUNT_FROM" property="lockAmountFrom" jdbcType="DECIMAL" />
+    <result column="FIX_AMOUNT" property="fixAmount" jdbcType="DECIMAL" />
+    <result column="CURRENCY" property="currency" jdbcType="CHAR" />
+  </resultMap>
+</mapper>

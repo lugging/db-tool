@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="db.tool.dao.DruidSqlMapper">
+  <resultMap id="BaseResultMap" type="db.tool.model.DruidSql">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="domain" jdbcType="VARCHAR" property="domain" />
+    <result column="app" jdbcType="VARCHAR" property="app" />
+    <result column="cluster" jdbcType="VARCHAR" property="cluster" />
+    <result column="host" jdbcType="VARCHAR" property="host" />
+    <result column="pid" jdbcType="INTEGER" property="pid" />
+    <result column="collectTime" jdbcType="TIMESTAMP" property="collecttime" />
+    <result column="sqlHash" jdbcType="BIGINT" property="sqlhash" />
+    <result column="dataSource" jdbcType="VARCHAR" property="datasource" />
+    <result column="lastStartTime" jdbcType="BIGINT" property="laststarttime" />
+    <result column="batchTotal" jdbcType="BIGINT" property="batchtotal" />
+    <result column="batchToMax" jdbcType="INTEGER" property="batchtomax" />
+    <result column="execSuccessCount" jdbcType="BIGINT" property="execsuccesscount" />
+    <result column="execNanoTotal" jdbcType="BIGINT" property="execnanototal" />
+    <result column="execNanoMax" jdbcType="BIGINT" property="execnanomax" />
+    <result column="running" jdbcType="INTEGER" property="running" />
+    <result column="concurrentMax" jdbcType="INTEGER" property="concurrentmax" />
+    <result column="rsHoldTime" jdbcType="BIGINT" property="rsholdtime" />
+    <result column="execRsHoldTime" jdbcType="BIGINT" property="execrsholdtime" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="file" jdbcType="VARCHAR" property="file" />
+    <result column="dbType" jdbcType="VARCHAR" property="dbtype" />
+    <result column="execNanoMaxOccurTime" jdbcType="BIGINT" property="execnanomaxoccurtime" />
+    <result column="errorCount" jdbcType="BIGINT" property="errorcount" />
+    <result column="errorLastMsg" jdbcType="VARCHAR" property="errorlastmsg" />
+    <result column="errorLastClass" jdbcType="VARCHAR" property="errorlastclass" />
+    <result column="errorLastStackTrace" jdbcType="VARCHAR" property="errorlaststacktrace" />
+    <result column="errorLastTime" jdbcType="BIGINT" property="errorlasttime" />
+    <result column="updateCount" jdbcType="BIGINT" property="updatecount" />
+    <result column="updateCountMax" jdbcType="BIGINT" property="updatecountmax" />
+    <result column="fetchRowCount" jdbcType="BIGINT" property="fetchrowcount" />
+    <result column="fetchRowCountMax" jdbcType="BIGINT" property="fetchrowcountmax" />
+    <result column="inTxnCount" jdbcType="BIGINT" property="intxncount" />
+    <result column="lastSlowParameters" jdbcType="VARCHAR" property="lastslowparameters" />
+    <result column="clobOpenCount" jdbcType="BIGINT" property="clobopencount" />
+    <result column="blobOpenCount" jdbcType="BIGINT" property="blobopencount" />
+    <result column="readStringLength" jdbcType="BIGINT" property="readstringlength" />
+    <result column="readBytesLength" jdbcType="BIGINT" property="readbyteslength" />
+    <result column="inputStreamOpenCount" jdbcType="BIGINT" property="inputstreamopencount" />
+    <result column="readerOpenCount" jdbcType="BIGINT" property="readeropencount" />
+    <result column="h1" jdbcType="BIGINT" property="h1" />
+    <result column="h10" jdbcType="BIGINT" property="h10" />
+    <result column="h100" jdbcType="INTEGER" property="h100" />
+    <result column="h1000" jdbcType="INTEGER" property="h1000" />
+    <result column="h10000" jdbcType="INTEGER" property="h10000" />
+    <result column="h100000" jdbcType="INTEGER" property="h100000" />
+    <result column="h1000000" jdbcType="INTEGER" property="h1000000" />
+    <result column="hmore" jdbcType="INTEGER" property="hmore" />
+    <result column="eh1" jdbcType="BIGINT" property="eh1" />
+    <result column="eh10" jdbcType="BIGINT" property="eh10" />
+    <result column="eh100" jdbcType="INTEGER" property="eh100" />
+    <result column="eh1000" jdbcType="INTEGER" property="eh1000" />
+    <result column="eh10000" jdbcType="INTEGER" property="eh10000" />
+    <result column="eh100000" jdbcType="INTEGER" property="eh100000" />
+    <result column="eh1000000" jdbcType="INTEGER" property="eh1000000" />
+    <result column="ehmore" jdbcType="INTEGER" property="ehmore" />
+    <result column="f1" jdbcType="BIGINT" property="f1" />
+    <result column="f10" jdbcType="BIGINT" property="f10" />
+    <result column="f100" jdbcType="BIGINT" property="f100" />
+    <result column="f1000" jdbcType="INTEGER" property="f1000" />
+    <result column="f10000" jdbcType="INTEGER" property="f10000" />
+    <result column="fmore" jdbcType="INTEGER" property="fmore" />
+    <result column="u1" jdbcType="BIGINT" property="u1" />
+    <result column="u10" jdbcType="BIGINT" property="u10" />
+    <result column="u100" jdbcType="BIGINT" property="u100" />
+    <result column="u1000" jdbcType="INTEGER" property="u1000" />
+    <result column="u10000" jdbcType="INTEGER" property="u10000" />
+    <result column="umore" jdbcType="INTEGER" property="umore" />
+  </resultMap>
+</mapper>

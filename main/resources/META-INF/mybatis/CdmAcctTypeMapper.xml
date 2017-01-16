@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.CdmAcctTypeMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.CdmAcctType" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="CATEGORY" property="category" jdbcType="CHAR" />
+    <id column="ACCT_PROD" property="acctProd" jdbcType="VARCHAR" />
+    <result column="DESCRIPTION" property="description" jdbcType="VARCHAR" />
+    <result column="CUST_FLAG" property="custFlag" jdbcType="CHAR" />
+    <result column="CURR_FLAG" property="currFlag" jdbcType="CHAR" />
+    <result column="SETTLEMENT_FLAG" property="settlementFlag" jdbcType="CHAR" />
+    <result column="PERIOD_FLAG" property="periodFlag" jdbcType="CHAR" />
+    <result column="MASTER_ACCT" property="masterAcct" jdbcType="CHAR" />
+    <result column="ASSO_CARDS" property="assoCards" jdbcType="INTEGER" />
+    <result column="STATUS" property="status" jdbcType="CHAR" />
+    <result column="LAST_CHG_DATE" property="lastChgDate" jdbcType="TIMESTAMP" />
+    <result column="LAST_CHG_TIME" property="lastChgTime" jdbcType="TIMESTAMP" />
+    <result column="LAST_CHG_TELLER" property="lastChgTeller" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.TtPropertySetMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.TtPropertySet" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="TRANS_TYPE" property="transType" jdbcType="VARCHAR" />
+    <result column="ITEMTYPE" property="itemtype" jdbcType="VARCHAR" />
+    <result column="XINPMNT" property="xinpmnt" jdbcType="CHAR" />
+    <result column="XCHK_ACCNT" property="xchkAccnt" jdbcType="CHAR" />
+    <result column="XCHK_ACCN2" property="xchkAccn2" jdbcType="CHAR" />
+    <result column="XCHK_LIMIT" property="xchkLimit" jdbcType="CHAR" />
+    <result column="XCHK_CUSTO" property="xchkCusto" jdbcType="CHAR" />
+    <result column="XCHK_PRENO" property="xchkPreno" jdbcType="CHAR" />
+    <result column="XCHK_NOW" property="xchkNow" jdbcType="CHAR" />
+    <result column="XCHK_PCL" property="xchkPcl" jdbcType="CHAR" />
+    <result column="XCHK_PYM" property="xchkPym" jdbcType="CHAR" />
+    <result column="VALUE_REQ" property="valueReq" jdbcType="CHAR" />
+    <result column="XMORE_RCV" property="xmoreRcv" jdbcType="CHAR" />
+    <result column="XDIALOG_PO" property="xdialogPo" jdbcType="CHAR" />
+    <result column="XDIALOG_PI" property="xdialogPi" jdbcType="CHAR" />
+    <result column="XDIA_SO" property="xdiaSo" jdbcType="CHAR" />
+    <result column="XDIALOG_FO" property="xdialogFo" jdbcType="CHAR" />
+    <result column="XCIMT" property="xcimt" jdbcType="CHAR" />
+    <result column="XTAX" property="xtax" jdbcType="CHAR" />
+    <result column="GVCODE" property="gvcode" jdbcType="VARCHAR" />
+    <result column="STATE" property="state" jdbcType="CHAR" />
+    <result column="TT_GROUP" property="ttGroup" jdbcType="VARCHAR" />
+    <result column="XCHK_VALUE" property="xchkValue" jdbcType="CHAR" />
+    <result column="XREVERSAL" property="xreversal" jdbcType="CHAR" />
+    <result column="XCHK_POST" property="xchkPost" jdbcType="CHAR" />
+  </resultMap>
+</mapper>

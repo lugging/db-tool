@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.BankAcctOrderMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.BankAcctOrder" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="CONTRACT_ID" property="contractId" jdbcType="VARCHAR" />
+    <id column="ORDER_ID" property="orderId" jdbcType="VARCHAR" />
+    <result column="SERIAL_decimal" property="serialDecimal" jdbcType="VARCHAR" />
+    <result column="ORDER_TYPE" property="orderType" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="VARCHAR" />
+    <result column="POSTING_DATE" property="postingDate" jdbcType="DATE" />
+    <result column="DUE_DATE" property="dueDate" jdbcType="DATE" />
+    <result column="TIMESTAMP" property="timestamp" jdbcType="TIMESTAMP" />
+    <result column="PAY_ITEM_ID" property="payItemId" jdbcType="VARCHAR" />
+    <result column="UPDATOR" property="updator" jdbcType="VARCHAR" />
+    <result column="SETTLE_PERIOD" property="settlePeriod" jdbcType="VARCHAR" />
+    <result column="SETTLE_COUNT" property="settleCount" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

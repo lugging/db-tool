@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="db.tool.dao.AccruleSimMapper" >
+  <resultMap id="BaseResultMap" type="db.tool.model.AccruleSim" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="CONTRACT_ID" property="contractId" jdbcType="VARCHAR" />
+    <id column="SETTLEMENT_TYPE" property="settlementType" jdbcType="VARCHAR" />
+    <id column="SETTLE_PERIOD" property="settlePeriod" jdbcType="VARCHAR" />
+    <result column="ACCRULE_AMOUNT" property="accruleAmount" jdbcType="DECIMAL" />
+    <result column="CURRENCY" property="currency" jdbcType="VARCHAR" />
+    <result column="VALID_FROM_DATE" property="validFromDate" jdbcType="DATE" />
+    <result column="VALID_TO_DATE" property="validToDate" jdbcType="DATE" />
+    <result column="DUE_DATE" property="dueDate" jdbcType="DATE" />
+    <result column="SETTLE_TIMESTAMP" property="settleTimestamp" jdbcType="TIMESTAMP" />
+    <result column="UPDATOR" property="updator" jdbcType="VARCHAR" />
+    <result column="POSTING_AREA" property="postingArea" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
